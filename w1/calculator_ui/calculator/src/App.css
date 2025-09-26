@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.calculator-container {
+  max-width: 1220px; /* Increased width */
+  margin: 40px auto;
+  padding: 24px;
+  background: #22223b;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(34,34,59,0.2);
+}
+
+.display {
+  background: #4a4e69;
+  color: #f2e9e4;
+  font-size: 2.2em;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  text-align: right;
+  min-height: 48px;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button {
+  padding: 18px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #9a8c98;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(34,34,59,0.08);
+}
+
+button:hover {
+  background: #c9ada7;
+  color: #22223b;
+  transform: scale(1.05);
+}
+
+button:active {
+  background: #f2e9e4;
+  color: #22223b;
+}
+
+button:nth-child(1), /* C */
+button:nth-child(2) { /* DEL */
+  background: #e63946;
+}
+
+button:nth-child(1):hover,
+button:nth-child(2):hover {
+  background: #ff6f61;
+  color: #fff;
+}
+
+button:nth-child(3), /* ÷ */
+button:nth-child(4), /* × */
+button:nth-child(8), /* − */
+button:nth-child(12) /* + */ {
+  background: #457b9d;
+}
+
+button:nth-child(3):hover,
+button:nth-child(4):hover,
+button:nth-child(8):hover,
+button:nth-child(12):hover {
+  background: #1d3557;
+  color: #fff;
+}
+
+button:last-child { /* = */
+  background: #2a9d8f;
+}
+
+button:last-child:hover {
+  background: #21867a;
+  color: #fff;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Calculator App</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 2em; }
+    .container { max-width: 700px; margin: auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 2em; }
+    h1 { color: #22223b; }
+    code, pre { background: #f2e9e4; padding: 2px 6px; border-radius: 4px; }
+    ul { margin-left: 1.5em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>React Calculator App</h1>
+    <p>
+      This is a simple calculator application built with <strong>React</strong>. It provides a clean and bold UI for basic arithmetic operations.
+    </p>
+    <h2>Features</h2>
+    <ul>
+      <li>Addition (<code>+</code>)</li>
+      <li>Subtraction (<code>-</code>)</li>
+      <li>Multiplication (<code>×</code>)</li>
+      <li>Division (<code>÷</code>)</li>
+      <li>Delete last character (<code>DEL</code>)</li>
+      <li>Clear all input (<code>C</code>)</li>
+      <li>Decimal point (<code>.</code>)</li>
+      <li>Numbers 0-9</li>
+      <li>Equals (<code>=</code>) to calculate the result</li>
+      <li>Results and input are clamped to <strong>6 decimal places</strong></li>
+    </ul>
+    <h2>Usage</h2>
+    <ol>
+      <li>Click the number buttons to enter values.</li>
+      <li>Use the operator buttons for arithmetic operations.</li>
+      <li>Press <code>.</code> to add a decimal point (max 6 decimal places per number).</li>
+      <li>Press <code>=</code> to get the result (rounded to 6 decimal places).</li>
+      <li>Use <code>DEL</code> to delete the last character, or <code>C</code> to clear all input.</li>
+    </ol>
+    <h2>Tech Stack</h2>
+    <ul>
+      <li>React</li>
+      <li>CSS for styling</li>
+    </ul>
+    <h2>File Structure</h2>
+    <pre>
+src/
+  App.jsx      <!-- Main calculator logic and UI -->
+  App.css      <!-- Calculator styles -->
+  index.css    <!-- Global styles -->
+  main.jsx     <!-- React entry point -->
+    </pre>
+    <h2>How It Works</h2>
+    <p>
+      The calculator restricts decimal input to 6 places per number and displays results rounded to 6 decimal places. It supports chained operations and error handling for invalid expressions.
+    </p>
+    
+      <strong>Live Demo:</strong>
+      <a href="http://localhost:5173" target="_blank">Open Calculator</a>
+    </p>
+    <hr>
+    <p>
+      <em>Created with React. For educational and demonstration purposes.</em>
+    </p>
+  </div>
+</body>
+</html>
