@@ -1,0 +1,128 @@
+/* App root styles */
+.app-root {
+	background-color: black;
+	min-height: 100vh;
+	color: #f0f0f0;
+	padding: 0;
+	margin: 0;
+}
+
+.app-root h1 {
+	color: #f0f0f0;
+}
+
+/* Card styles */
+.card {
+	margin-bottom: 1rem;
+}
+.card button {
+	background: #3b82f6;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+/* Controls styles */
+.controls {
+	margin: 1rem 0;
+}
+.controls input[type="text"] {
+	margin-right: 0.5rem;
+	background: #1e1e1e;
+	border: 1px solid #444;
+	color: #f0f0f0;
+	padding: 0.5rem;
+	border-radius: 6px;
+}
+.controls button {
+	background: #3b82f6;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-right: 0.5rem;
+}
+.controls button:last-child {
+	background: #22c55e;
+	margin-right: 0;
+}
+
+/* Success and error messages */
+.success {
+	color: #22c55e;
+}
+.error {
+	color: #ef4444;
+}
+
+/* User grid and card styles */
+.user-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 1rem;
+}
+.user-card {
+	border: 1px solid #333;
+	border-radius: 12px;
+	padding: 1rem;
+	background: #1e1e1e;
+	color: #f0f0f0;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+.user-img {
+	width: 100%;
+	border-radius: 8px;
+}
+.user-card h3 {
+	color: #f9fafb;
+	margin: 0.5rem 0;
+}
+.user-card p {
+	margin: 0.25rem 0;
+	color: #d1d5db;
+}
+.favorite {
+	background: #3b82f6;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 0.5rem;
+}
+.favorite.active {
+	background: #eab308;
+}
+.user-card details {
+	margin-top: 0.5rem;
+}
+.user-card summary {
+	cursor: pointer;
+	color: #60a5fa;
+}
+.user-card pre {
+	font-size: 0.75rem;
+	background: #2a2a2a;
+	padding: 0.5rem;
+	border-radius: 6px;
+	color: #f0f0f0;
+}
+
+/* Raw API response details */
+.raw-response {
+	margin-top: 1rem;
+}
+.raw-response summary {
+	color: #60a5fa;
+}
+.raw-response pre {
+	font-size: 0.8rem;
+	background: #2a2a2a;
+	color: #f0f0f0;
+	padding: 0.5rem;
+	border-radius: 6px;
+}
