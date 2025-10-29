@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1760175186586" clover="3.2.0">
+  <project timestamp="1760175186587" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="20" coveredconditionals="20" methods="8" coveredmethods="8" elements="47" coveredelements="47" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="utils.js" path="C:\Users\bypt-lenovo2\Desktop\Copilot\w4\src\utils.js">
+      <metrics statements="19" coveredstatements="19" conditionals="20" coveredconditionals="20" methods="8" coveredmethods="8"/>
+      <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="10" type="stmt"/>
+      <line num="14" count="9" type="stmt"/>
+      <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="27" count="10" type="cond" truecount="6" falsecount="0"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="8" type="stmt"/>
+      <line num="32" count="8" type="stmt"/>
+      <line num="33" count="3" type="stmt"/>
+      <line num="34" count="3" type="stmt"/>
+      <line num="45" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="46" count="2" type="stmt"/>
+      <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
